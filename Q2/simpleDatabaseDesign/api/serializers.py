@@ -4,7 +4,7 @@ from .models import Bin,Operation,Bin_Operation
 class BinSerializer(serializers.ModelSerializer):
     class Meta:
         model = Bin
-        fields = ['id','latitute','longitude']
+        fields = ['id','latitude','longitude']
 
 class OperationSerializer(serializers.ModelSerializer):
     class Meta:

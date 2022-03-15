@@ -5,7 +5,7 @@ import uuid
 
 class Bin(models.Model):
     id = models.UUIDField(default=uuid.uuid4,unique=True,primary_key=True,editable=False)
-    latitute = models.FloatField(default=0) 
+    latitude = models.FloatField(default=0) 
     longitude = models.FloatField(default=0) 
 
 
