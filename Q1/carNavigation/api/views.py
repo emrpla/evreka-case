@@ -18,7 +18,7 @@ def apiOverview(request):
 def lastNavigationRecords(request):
     last_points=[]
     current_datetime = datetime.now() # get current datetime
-    two_day=2880 #minutes
+    two_day=2880 #minutes == 48 hours
 
     records = NavigationRecord.objects.prefetch_related('vehicle') # get all records
     serializer = NavigationRecordSerializer(records, many=True)
