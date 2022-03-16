@@ -26,7 +26,7 @@
 
 ![Sample](https://github.com/emrpla/evreka-case/blob/main/images/results.PNG)
 ------
-## Ouestion2
+## Question2
 
 ### Tech Stack
 - **Server:** Python, Django and Django-Rest Framework
