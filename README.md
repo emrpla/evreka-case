@@ -48,6 +48,6 @@
 - I established many-to-many relationships between tables and displayed the main desired properties in the Bin_Operation table
 - The entity-relationship diagram and the desired result are given below
 
-![ER Diagram](https://github.com/emrpla/evreka-case/blob/main/images/evreka_db.png)
+![ER Diagram](https://github.com/emrpla/evreka-case/blob/main/images/ER_diagram.PNG)
 
 ![Result](https://github.com/emrpla/evreka-case/blob/main/images/result2.PNG)
